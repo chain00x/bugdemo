@@ -17,11 +17,4 @@ else
     //输出第一个中的值
     echo $book->item(0)->nodeValue;
 }
-    $doc = new DOMDocument();
-    $conten=$result;
-    $doc->loadxml($conten, LIBXML_NOENT);
-    //获取标签对象
-    $book=$doc->getElementsByTagName("body");
-    //输出第一个中的值
-    echo $book->item(0)->nodeValue;
 ?>
