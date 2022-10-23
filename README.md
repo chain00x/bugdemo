@@ -1,4 +1,4 @@
-docker运行
+docker在文件目录下运行
 
 ```docker-compose up -d```
 
