@@ -13,7 +13,7 @@ else
     $doc = new DOMDocument();
     $doc->loadxml($result, LIBXML_NOENT);
     //获取标签对象
-    $book=$doc->getElementsByTagName("t");
+    $book=$doc->getElementsByTagName("body");
     //输出第一个中的值
     echo $book->item(0)->nodeValue;
 }
