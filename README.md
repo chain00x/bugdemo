@@ -14,5 +14,7 @@ docx:
 <img width="1439" alt="image" src="https://user-images.githubusercontent.com/90015694/197418337-e91c36e6-b1f5-4ce4-ad2a-fa6898adb946.png">
 
 symlink:
+
 ln -s /etc/hostname link
+
 zip -r --symlinks link.zip link
